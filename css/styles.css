@@ -646,6 +646,20 @@ body{
     font-size: .8em;
     text-align: center;
  }
+ .back-to-top{
+    background-color: #fff;
+    width: 20%;
+    margin: 20px;
+    text-align: center;
+    height: 20%;
+    border-radius: 50%;
+    padding: 10px;
+ }
+ .back-to-top:hover{
+    background-color: rgb(148, 148, 215);
+    padding: 9px;
+    transition: .5s;
+ }
  /* footer end here  */
 
  /* product page starts here  */
