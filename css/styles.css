@@ -32,8 +32,13 @@
     font-family:  sans-serif;
 
 }
-body{
+html, body{
     width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 90%;
     margin: auto;
     padding: 15px;
     overflow-x: hidden;
@@ -229,6 +234,7 @@ body{
     display: flex;
     /* flex-wrap: wrap; */
     box-sizing: border-box;
+    padding-left: 2%;
 }
 
 .our-vision{
@@ -238,6 +244,7 @@ body{
     box-shadow: 2px 2px 2px 2px ;
     padding: 10px;
     margin-right: 20px;
+    border-radius: 25%;
     box-sizing: border-box;
 }
 .our-vision > i{
@@ -352,11 +359,16 @@ body{
 /* .quotation section ends here  */
 
 /* gallery section start here  */
+.gallery{
+   width: 90%;
+   margin: auto;
+}
 .gallery-container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 50px;
+
 }
 
 .gallery-heading{
@@ -369,7 +381,7 @@ body{
     width: 80%;
     height: 100px;
     animation-name: slideUp;
-    animation-duration: 2s;
+    animation-duration: 2s; 
 }
 .gallery-1 > button{
     position: relative;
@@ -400,11 +412,11 @@ body{
    font-size: .95em;
    text-decoration: none;
    color: white;
-   background-color: #000;
+   background-color: rgb(11, 11, 246);
    padding: 3px 15px;
    border: 2px groove gray;
    border-radius: 5px;
-   box-shadow: 2px 2px 5px rgb(0, 0, 0);
+   box-shadow: 0px 5px 5px rgb(45, 29, 150);
 }
 .gallery-btn > a:hover{
     font-size: .8em;
@@ -456,10 +468,11 @@ body{
 .contact > div{
     width: 45%;
     box-sizing: border-box;
-    box-shadow: 2px 2px 10px;
-     padding: 5px;
-     margin: 10px;
-     text-align: center;
+    box-shadow: 5px 0px 5px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 50px;
    
 }
 .contact > h2{
@@ -949,6 +962,7 @@ body{
     .btn-container > .tab-btn{
         background-color: #000;
         color: #fff;
+        border-radius: 10px;
        
     }
  
@@ -967,7 +981,11 @@ body{
     .our-vision{
         width: 100%;
         height: 200px;
-        overflow-y: scroll;
+        overflow-y: auto;
+        border-top-left-radius: 25%;
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 8%;
+        border-bottom-left-radius: 0%;
     }
     
    
